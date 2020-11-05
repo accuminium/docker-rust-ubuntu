@@ -14,7 +14,7 @@ docker run \
     -t --rm \
     -v "$PWD:/source" \
     -v "$PWD/target/ubuntu:/source/target" \
-    accuminium/rust-ubuntu:18.04_stable \
+    accuminium/rust-ubuntu:20.04_stable \
     cargo build --release
 ```
-Adapt the version of the image (`18.04_stable` in this example) as needed.
+Adapt the version of the image (`20.04_stable` in this example) as needed.
